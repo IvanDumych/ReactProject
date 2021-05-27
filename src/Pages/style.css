@@ -1,0 +1,133 @@
+advantages_container*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+}
+body{
+    font-family: 'Raleway', sans-serf;
+     margin: 0;
+}
+/*topnav*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+}
+
+.right_topnav{
+padding-right:10%;
+float: right
+}
+
+
+/*advanteges*/
+
+
+
+.advantages_container{
+    display:flex;
+    justify-content:center;
+
+}
+.advanteges{
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+ }
+.advanteges_item{
+    width:30%;
+    padding-left :5 %;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+   .advanteges_item{
+        width:50%;
+    }
+        .right_topnav{
+        padding-right:0%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .advanteges{
+        flex_direction:column;
+    }
+   .advanteges_item{
+        width:100%;
+    }
+
+}
+
+footer{
+    width:100%;
+    height:auto;
+    background:#000;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 25px;
+
+     position:fixed;
+     bottom:0;
+     padding: 10px 10px 0px 10px;
+
+}
+
+footer a{
+    color:white;
+    font-size:14px;
+    margin-left:10px;
+}
+
+footer nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+footer p{
+    color: white;
+}
+
+.button {
+    color: #fff;
+    background: #991f36;
+    padding: 5px 15px;
+    transition: all .5s ease;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
